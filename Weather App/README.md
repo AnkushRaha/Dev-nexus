@@ -1,0 +1,3 @@
+# **WEATHER APP**
+A CLI based weather app built with python and openweather api. It helps to display weather, wind speed, humidity and many more just by entering the city name.
+It is a really cool project and it is the first api based project that all of the coders build.....
