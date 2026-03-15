@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>REGISTRATION FORM</h2>
+
+    <form>
+        
+        <div class="form-group">
+            <label for="title">Title / Pronoun:</label>
+            <select id="title" name="title" required>
+                <option value="">-- Select --</option>
+                <option value="Mr">Mr</option>
+                <option value="Mrs">Mrs</option>
+                <option value="Ms">Ms</option>
+                <option value="Miss">Miss</option>
+                <option value="Dr">Dr</option>
+                <option value="Prof">Prof</option>
+            </select>
+        </div>
+<br>
+        <div class="form-group">
+            <label for="firstname">First Name:</label>
+            <input type="text" id="firstname" name="firstname" required placeholder="e.g. Rakesh">
+        </div>
+<br>
+        <div class="form-group">
+            <label for="lastname">Last Name / Surname:</label>
+            <input type="text" id="lastname" name="lastname" required placeholder="e.g. Sharma">
+        </div>
+<br>
+        <div class="form-group">
+            <lable for="gender">Male  </lable>
+            <input type="radio" id="male" name="gender" value="Male">
+        </div>
+        <div class="form-group">
+            <lable for="gender">Female</lable>
+            <input type="radio" id="female" name="gender" value="Female">
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="example@gmail.com">
+        </div>
+<br>
+        <div class="form-group">
+            <lable for="password">Password:</lable>
+            <input type="password" id="password" name="password" required placeholder="password">
+        </div>
+<br>
+        <div class="form-group">
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="10-digit number" pattern="[0-9]{10}" title="Please enter 10-digit number">
+        </div>
+<br>
+        <div class="form-group">
+            <label for="education">Highest Qualification:</label>
+            <select id="education" name="education" required>
+                <option value="">-- Select Qualification --</option>
+                <option value="10th">10th / Matriculation</option>
+                <option value="12th">12th / Intermediate</option>
+                <option value="Diploma">Diploma</option>
+                <option value="BSc">Bachelor's Degree (BSc / BA / BCom)</option>
+                <option value="BTech">B.Tech / BE</option>
+                <option value="MSc">Master's Degree (MSc / MA / MCom)</option>
+                <option value="MTech">M.Tech / ME</option>
+                <option value="MBA">MBA</option>
+                <option value="PhD">PhD / Doctorate</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+<br>
+        <div class="form-group">
+            <label for="college">College / University Name:</label>
+            <input type="text" id="college" name="college" placeholder="e.g. Jadavpur University">
+        </div>
+<br>
+        <div class="form-group">
+            <label for="about">About Yourself (short bio):</label>
+            <textarea id="about" name="about" placeholder="Tell us something about yourself..."></textarea>
+        </div>
+<br>
+        <button type="submit">Submit Form</button>
+
+    </form>   
+</body>
+</html>
