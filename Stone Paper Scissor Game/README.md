@@ -1,8 +1,3 @@
----
-
-###  **README for “Stone Paper Scissors”**
-(make one in `Stone-Paper-Scissors/` folder once you create it)
-```markdown
 # Stone Paper Scissors
 
 A Python version of the classic game we all played — now against your computer 😎  
