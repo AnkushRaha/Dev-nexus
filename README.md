@@ -1,10 +1,10 @@
-# ✨ My-Projects——————————
+# ✨  Dev Nexus---------
 
 Hey there!  I'm **Ankush**..........
-In this repo, I upload all the projects I’ve been building as I learn coding and try to get better..........
+In this repo, I upload all the projects I’ve been building as I learn coding..........
 
 ## 📘 **About the Repository**
-This repository contains all my small Projects that i created. 
+This repository contains all my Projects that i created. 
 
 ---
 
@@ -20,6 +20,8 @@ Here’s what you’ll find inside the repo:
 | **Contact Book** |  A basic contact management program to store, view, and manage contacts |
 | **Weather App** | A CLI based app that helps you to see the Weather of a city! |
 | **Telegram Bot** | A bot that cracks joke in Telegram |
+| **Number Counter** | A simple number counter made with javascript and html-css |
+| **Registration Form** | A website to register a form. |
 ---
 
 ## **Future Plans**
@@ -36,6 +38,6 @@ If you’ve got ideas, feel free to fork the repo or drop an issue 💬
 ---
 
 ## ✨ **Author**
-** Ankush Raha**  
+**Ankush Raha**  
 📫 [GitHubProfile]
 => https://github.com/AnkushRaha
